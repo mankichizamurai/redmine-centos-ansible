@@ -16,14 +16,17 @@ Ansibleを使ってRedmineを自動インストールするためのプレイブ
 ## システム構成
 
 * Redmine 3.4
-* CentOS 7.3
-* PostgreSQL
-* Apache
+* CentOS 7.5
+* MySQL 5.6.41
+* Apache 2.4.6
+* python 2.7.5
+* ruby 2.4.1
+
 
 
 ## Redmineのインストール手順
 
-インストール直後の CentOS 7.3 に root でログインし以下の操作を行ってください。
+インストール直後の CentOS 7.5 に root でログインし以下の操作を行ってください。
 
 
 ### Ansibleとgitのインストール

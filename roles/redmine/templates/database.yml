@@ -1,5 +1,5 @@
-production:
-  adapter: postgresql
+production: &default
+  adapter: mysql2
   database: redmine
   host: localhost
   username: redmine

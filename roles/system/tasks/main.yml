@@ -43,11 +43,6 @@
   yum:
     name='openssl-devel,readline-devel,zlib-devel,curl-devel,libyaml-devel,libffi-devel'
 
-- name:  PostgreSQLとヘッダファイルのインストール
-  become: yes
-  yum:
-    name='postgresql-server,postgresql-devel,python-psycopg2'
-
 - name: Apacheとヘッダファイルのインストール
   become: yes
   yum:
